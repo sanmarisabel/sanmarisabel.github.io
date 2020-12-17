@@ -1,10 +1,40 @@
 .img {
     height: 200px;
     width: auto;
-    position: absolute;
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
-    margin:0;
+    margin-top:125px;
+    margin-left: 75px;
     border-radius: 50%;
+}
+
+.aboutMeHeader {
+    /* margin-top: 10px;
+    margin-left: 300px; */
+}
+
+.aboutMe {
+    /* margin-left: 300px; */
+}
+
+.linkedinImg {
+    height: 25px;
+    width: auto;
+
+}
+.githubImg {
+    height: 25px;
+    width: auto;
+}
+
+.aboutMeContainer {
+    margin: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: rgb(73, 73, 73);
 }

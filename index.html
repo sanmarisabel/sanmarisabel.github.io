@@ -13,21 +13,21 @@
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <!-- NAV BAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">MS</a>
+        <a class="navbar-brand" href="#jumbotron">MS</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="#" >About</a>
-            <a class="nav-link" href="#">Projects</a>
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link active" href="#jumbotron">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#about" >About</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </div>
         </div>
       </nav>
@@ -41,35 +41,54 @@
       </div>
     
     <!-- ABOUT  -->
-    <section>
-        <div>
-             <img class="img"; src="./assets/IMG_3720 copy.jpg">
-            <h1 class="about"; style="text-align: center;">About me </h1>
-            <p class="about"; style="text-align: center;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint totam, maxime quibusdam porro eaque voluptatem non beatae veritatis aliquid autem explicabo recusandae corporis cupiditate repellendus optio quod. Minima sapiente voluptates possimus amet incidunt harum fugit rem explicabo aut tempora! Atque neque nisi commodi ea dolore eos, a ipsam dolor esse nemo quas suscipit, modi sint harum architecto nulla non eaque quo temporibus debitis eius. Vel totam neque doloremque consequuntur earum accusantium alias tempora cum enim? </p>
+    <section id="about">
+      
+        <div class="aboutMeContainer">
+            <img class="img"; src="./assets/IMG_3720 copy.jpg"; style="float: left;">
+            <h1 class="aboutMeHeader"; style="float: inline-end;" >About me </h1>
+            <p class="aboutMe"; style="text-align: left" ; > Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis commodi quod temporibus error, quis suscipit officia sapiente at nostrum eos autem, exercitationem odit nisi quam? Placeat quia fugiat, repudiandae error quasi minus et eaque, earum ut culpa obcaecati commodi sequi explicabo, atque expedita facilis pariatur velit corrupti praesentium inventore. Nostrum maxime doloribus quidem molestiae repudiandae aperiam ut ea suscipit consequatur inventore, dicta assumenda. Dolores, itaque suscipit et excepturi alias ratione hic? Nisi dignissimos culpa dolorem, delectus consectetur temporibus alias, cum quam possimus iusto eligendi, necessitatibus ducimus natus. Perferendis ipsum laborum animi quae, reiciendis dolor est officia excepturi, tempore iste voluptatum? </p>
+            <p class="text-center">  
+              <a href="./assets/STEM Resume.pdf" download>
+                <b style="color: rgb(58, 59, 58);">Download my Resume</b>
+              </a>
+            </p>
+            <p class="text-center ">
+              <a href="https://www.linkedin.com/in/marisabel-sanchez-b001891b9">
+                <img class="linkedinImg" src="./assets/Linkedin-Download-PNG.png">
+              </a>
+              <a href="https://github.com/sanmarisabel">
+                <img class="githubImg" src="./assets/github-logo.png">
+              </a>
+            </p>
+
         </div>
     </section>
     <!-- PROJECTS -->
-    <h1 class="about"; style="text-align: center;">Projects</h1>
-    <div class="container">
-        <div class="row">
-          <div class="columnOne">
-            One of three columns
+    <section id="projects">
+    <h1 class="projectsHeading"; style="text-align: center;">Projects</h1>
+    <div class="projectsContainer">
+          <div class="projectOne">
+            <a href="https://codepen.io/sanmarisabel/pen/MWjwEjx">
+              <img class="creatureImg" style="float: left;" src="assets/Screen Shot 2020-12-17 at 10.27.11 AM.png">
+            </a>
           </div>
-          <div class="columnTwo">
-            One of three columns
+          <div class="projectTwo">
+            <a href="#">
+              <img class="apiImg" style="float: center;" src="assets/Screen Shot 2020-12-17 at 10.38.01 AM.png">
+            </a>
           </div>
-          <div class="column3">
+          <div class="project3">
             One of three columns
           </div>
         </div>
       </div>
-
+    </section>
     <!-- CONTACT -->
     <section id="contact">
         <div class="container">
             <br>
             <br>
-            <h2 class="text-center text-uppercase">Contact Me</h2>
+            <h2 class="text-center ">Let's Connect</h2>
             <div class="row">
                 <div class="col-12">
                     <form action="https://formspree.io/m.sanchezn64@gmail.com" method="POST">

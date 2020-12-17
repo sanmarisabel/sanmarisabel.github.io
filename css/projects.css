@@ -1,0 +1,28 @@
+.creatureImg {
+    height: 250px;
+    width: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin: 10px;
+}
+
+.apiImg {
+    height: 250px; 
+    width: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin: 10px;
+}
+#projects {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+    background-color: rgb(199, 199, 194);
+}
+
+.projectsHeading {
+    margin-bottom: 50px;
+}
