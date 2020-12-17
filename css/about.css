@@ -1,0 +1,10 @@
+.img {
+    height: 200px;
+    width: auto;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    margin:0;
+    border-radius: 50%;
+}

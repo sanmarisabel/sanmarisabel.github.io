@@ -1,0 +1,14 @@
+.jumbotron {
+    background: url("../assets/background.jpeg") center;
+    background-size: cover;
+    height: 45vh;
+}
+
+.jumbotron {
+    background-color: var(--black);
+    font-family: 'EB Garamond', sans-serif;
+}
+
+.display-4{
+    height: 300px;
+}
