@@ -30,3 +30,8 @@
     border-radius: 1px;
     border-color: rgb(73, 73, 73);
 }
+
+.aboutMe {
+    font-size: 18px;
+    text-indent:40px;
+}

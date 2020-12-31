@@ -1,4 +1,10 @@
 #contact {
-    background-color:rgb(199, 199, 194);
+    background-color:rgba(99, 136, 118, 0.308);
     /* font-family: 'EB Garamond', sans-serif; */
+
+}
+
+.btn {
+    background-color: white;
+    margin-bottom: 30px;
 }

@@ -1,28 +1,150 @@
-.creatureImg {
-    height: 250px;
-    width: auto;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    margin: 10px;
-}
 
-.apiImg {
-    height: 250px; 
-    width: auto;
+.projectsSection {
+    border-color: rgb(73, 73, 73);
     border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    margin: 10px;
-}
-#projects {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 100px;
-    padding-left: 100px;
-    background-color: rgb(199, 199, 194);
-}
-
-.projectsHeading {
+    border-radius: 1px;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-bottom: 50px;
+}
+.projectsHeading {
+    height: 100px;
+    padding-top: 50px;
+    margin-bottom: 75px;
+    font-size: 50px;
+}
+
+.projects {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "creature static api"
+}
+
+
+
+.creature {
+    grid-area: creature;
+    margin-bottom: 100px;
+}
+
+.static {
+    grid-area: static;
+}
+
+.api {
+    grid-area: api;
+}
+/* Creature */
+.creatureImg {
+    height: 200px;
+    width: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.creature {
+    height: 200px;
+    width: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.creatureDescription {
+    height: 200px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(214, 219, 216, 0.938);
+    color: rgb(65, 64, 64);
+    visibility: hidden;
+    opacity: 0;
+    padding-top: 10px;
+    
+}
+
+.creature:hover .creatureDescription {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Static */
+.staticImg {
+    height: 200px;
+    width: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.static {
+    height: 200px;
+    width: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.staticDescription {
+    height: 200px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(214, 219, 216, 0.938);
+    color: rgb(65, 64, 64);
+    visibility: hidden;
+    opacity: 0;
+    padding-top: 10px;
+    
+}
+
+.static:hover .staticDescription {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* API */
+.apiImg {
+    height: 200px;
+    width: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.api {
+    height: 200px;
+    width: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.apiDescription {
+    height: 200px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(214, 219, 216, 0.938);
+    color: rgb(65, 64, 64);
+    visibility: hidden;
+    opacity: 0;
+    padding-top: 10px;
+}
+
+.api:hover .apiDescription {
+    visibility: visible;
+    opacity: 1;
 }
